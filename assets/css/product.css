@@ -3,7 +3,34 @@
 
 /* Apenas para verificação */
 *{
-  outline: 2px dotted red;
+   /* outline: 2px dotted red;  */
+}
+
+p, span{
+  text-align: center;
+  align-content: center;
+}
+
+.nav-masthead{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.nav-link{
+  float: right;
+  align-content: space-between;
+  width: fit-content;
+  width: 20vw;
+  justify-content: end;
+}
+
+.border-white{
+  width: 20vw;
+  text-align: center;
+  background-color: #053999;
+  text-decoration-color: white;
 }
 
 
@@ -116,16 +143,16 @@ html{
 }
 
 .card-forms-ignite-rn {
-  width: 100%!important;
+  width: 100%;
 }
 
 .clock-label {
-  color: #e1e1e6!important;
-  font-size: 12px!important;
+  color: #e1e1e6;
+  font-size: 12px;
 }
 
 .headline-40 {
-  font-size: 28px!important;
+  font-size: 28px;
 }
 
 .column-ig-rn {
@@ -514,6 +541,11 @@ html{
   font-size: 40px;
   line-height: 130%;
 }
+
+.nav-link{
+  color: white;
+}
+
 .content-texts-cta-explorer-lab{
   display:-webkit-box;
   display:-webkit-flex;
@@ -523,7 +555,13 @@ html{
   -webkit-box-direction:normal;
   -webkit-flex-direction:column;
   -ms-flex-direction:column;
-  flex-direction:column}
+  flex-direction:column
+}
+
+p, span{
+  color: white;
+  text-align: center;
+}
 
 h1{
   display: block;
@@ -532,6 +570,8 @@ h1{
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  color: white;
+  text-align: center;
 }
 
 body {
@@ -7687,15 +7727,15 @@ textarea.w-input,textarea.w-select {
   color: #e1e1e6;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700
+  font-weight: 700;
 }
 
-.data-text.me,.data-text.online.me {
+.data-text.me, .data-text.online.me {
   color: #e1e1e6
 }
 
 .data-text.name {
-  color: #29292e
+  color: #ffffff
 }
 
 .data-text.ignite {
@@ -7704,7 +7744,7 @@ textarea.w-input,textarea.w-select {
 }
 
 .data-text.ignite.desciption {
-  color: rgba(41,41,46,.8);
+  color: rgba(180, 180, 182, 0.8);
   font-size: 14px
 }
 
@@ -10579,13 +10619,15 @@ textarea.w-input,textarea.w-select {
   margin-bottom: 32px
 }
 
+
 .headline-40 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: Roboto,sans-serif;
   color: #e1e1e6;
-  font-size: 40px;
-  line-height: 130%
+  font-size: 25px;
+  line-height: 130%;
+  
 }
 
 .headline-40.plus {
@@ -12011,10 +12053,12 @@ textarea.w-input,textarea.w-select {
 }
 
 .div-session-cards{
-  width: 96vw;
+  width: 100vw;
   align-content: center;
   align-self: center;
   text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .reacrt {
@@ -13990,7 +14034,8 @@ textarea.w-input,textarea.w-select {
 .p-16 {
   font-family: Roboto,sans-serif;
   font-size: 16px;
-  line-height: 160%
+  line-height: 160%;
+  text-align: center;
 }
 
  .text-tw {
@@ -14068,7 +14113,8 @@ textarea.w-input,textarea.w-select {
 
 .gray-200 {
   margin-bottom: 0;
-  color: #c4c4cc
+  color: #c4c4cc;
+  text-align: center;
 }
 
 .space-top-16 {
@@ -16768,10 +16814,9 @@ textarea.w-input,textarea.w-select {
 }
 
 .section-cronograma-explorer-lab{
-  padding-top: 140px!important;
-  padding-bottom: 140px!important;
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
-
 
 .color-matthias {
   /* LightSlateBlue */
@@ -18821,7 +18866,7 @@ textarea.w-input,textarea.w-select {
       grid-template-columns: 1fr 1fr
   }
 
-   .descricao-cta-plus, .gray-200.space-top-16, .ignite-lab {
+   .descricao-cta-plus, .gray-200, .space-top-16, .ignite-lab {
       text-align: center
   }
 
